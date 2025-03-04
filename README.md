@@ -306,7 +306,7 @@ We welcome contributions from developers, AI researchers, and medical profession
 1. **Fork the Repository**: Click on the "Fork" button at the top right of this repository.
 2. **Clone Your Fork**: Clone the repository to your local machine.
    ```bash
-   git clone https://github.com/YOUR_USERNAME/MedXpert-Backend-FastAPI.git
+   git clone https://github.com/JaspreetSingh-exe/MedXpert-Backend-FastAPI.git
    cd MedXpert-Backend-FastAPI
    ```
 3. **Create a New Branch**: Make sure to create a new branch for your changes.
