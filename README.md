@@ -299,6 +299,37 @@ These improvements will help MedXpert evolve into a **comprehensive AI-powered m
  
 ---   
 
+
+## 📂 Frontend Integration
+
+The MedXpert Android app acts as the user interface for interacting with the MedXpert Backend API. It handles user inputs, file uploads, and presents the backend-processed data in a clean, user-friendly way.
+
+
+### 🚀 How the Frontend Uses the Backend:
+
+- **Medical Report Upload**:  
+  Users select and upload PDF or image-based medical reports directly through the app. The frontend sends these files to the backend API for processing and awaits the extracted data and analysis.
+
+- **Displaying Summarized Reports**:  
+  After processing, the backend returns a simplified summary of the medical report. The frontend displays this summary in an easy-to-read format for users to understand their health status.
+
+- **Abnormality Highlights**:  
+  The backend detects abnormal medical values and flags them. The frontend receives this data and visually highlights these abnormalities within the report summary screen to grab the user’s attention.
+
+- **User Role Enforcement**:  
+  The backend tracks user activity (uploads and chatbot usage). Based on the backend's response, the frontend manages feature restrictions (like limiting uploads for guest users).
+
+- **Chatbot Integration**:  
+  The frontend provides a chatbot interface where users can ask health-related questions. These questions are sent to the backend, and the frontend displays the AI-generated responses to the user in real time.
+
+
+### 🔗 FrontEnd Repository  
+*This repository contains the complete frontend code for the MedXpert Android application along with the APK for direct download.*    
+👉 [MedXpert-FrontEnd Repository](https://github.com/JaspreetSingh-exe/MedXpert-FrontEnd)
+
+---  
+
+
 ## 🤝 Open for Contributions
 We welcome contributions from developers, AI researchers, and medical professionals to enhance the MedXpert Backend! If you would like to contribute, here’s how you can help:
 
