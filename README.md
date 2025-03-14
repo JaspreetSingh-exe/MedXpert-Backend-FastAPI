@@ -377,6 +377,10 @@ For any queries reach out at `jaspreetsingh01110@gmail.com`
 ---
 
 ## 📜 License
-This project is licensed under the **Apache License 2.0**. See `LICENSE` for details.
+This project is licensed under the **Apache License 2.0**. See `LICENSE` for details.     
+   
+---   
+
+> ⭐ Don't forget to **star** this repo if you like the project!
 
 
